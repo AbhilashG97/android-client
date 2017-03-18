@@ -465,8 +465,8 @@
     <string name="error_message">Server Sync Error</string>
     <string name="sync_clients">Clients</string>
     <string name="sync_groups">Groups</string>
-    <string name="sync_loanrepayments">LoanRepayments</string>
-    <string name="sync_savingsaccounttransactions">SavingsAccountTransaction</string>
+    <string name="sync_loanrepayments" translatable="false">LoanRepayments</string>
+    <string name="sync_savingsaccounttransactions" translatable="false">SavingsAccountTransaction</string>
     <string name="payloads_count">Payloads : </string>
     <string name="transactions_count">Transaction : </string>
     <string name="nothing_to_sync">Nothing To Sync :)</string>
