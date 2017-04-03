@@ -15,4 +15,9 @@
         android:id="@+id/view_group_list"
         android:title="@string/group_list"/>
 
+    <item
+        android:id="@+id/survey_center"
+        android:title="@string/survey"/>
+
+
 </menu>

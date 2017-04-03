@@ -39,7 +39,13 @@
             android:icon="@drawable/ic_path_tracker"
             android:title="@string/path_tracker"
             />
-
+          
+        <item
+            android:id="@+id/item_survey"
+            android:checked="false"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="@string/survey"
+            />
     </group>
        
     <group android:checkableBehavior="single"

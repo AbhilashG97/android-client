@@ -649,5 +649,6 @@
     <string name="empty_notes">Empty Notes</string>
     <string name="failed_to_fetch_notes">Failed to Fetch Notes</string>
 
-
+<!--Experimental Additions [MAYBE UNSTABLE OR BROKEN]-->
+    <string name="view_all">View all questions</string>
 </resources>

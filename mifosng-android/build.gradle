@@ -130,7 +130,7 @@ tasks.withType(JavaCompile) {
 dependencies {
 
     // You must install or update the Support Repository through the SDK manager to use this dependency.
-
+    compile 'com.getbase:floatingactionbutton'
     compile fileTree(dir: 'src/main/libs', include: ['*.jar'])
 
     //DBFlow dependencies
@@ -187,6 +187,8 @@ dependencies {
     }
     compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
     compile 'com.github.bumptech.glide:glide:3.7.0'
+    // Floating Action Button
+//    tools=overrideLibrary="com.getbase.floatingactionbutton"
 
     // Android Testing Support Library's runner and rules
     androidTestCompile "com.android.support.test:runner:$rootProject.runnerVersion"

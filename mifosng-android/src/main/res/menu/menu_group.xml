@@ -33,6 +33,12 @@
         app:showAsAction="never" />
 
     <item
+        android:id="@+id/group_survey"
+        android:enabled="true"
+        android:title="@string/survey"
+        app:showAsAction="never" />
+
+    <item
         android:id="@+id/group_notes"
         android:enabled="true"
         android:title="@string/note"
