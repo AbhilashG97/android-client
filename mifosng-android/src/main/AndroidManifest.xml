@@ -11,6 +11,11 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="false"/>
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -137,7 +142,7 @@
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".passcode.PassCodeActivity"
+            android:name=".userauthentication.passcode.PassCodeActivity"
             android:label="@string/pass_code"
             android:screenOrientation="portrait" />
 

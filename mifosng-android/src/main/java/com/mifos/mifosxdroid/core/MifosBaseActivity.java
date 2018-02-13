@@ -25,7 +25,7 @@ import com.mifos.mifosxdroid.SplashScreenActivity;
 import com.mifos.mifosxdroid.injection.component.ActivityComponent;
 import com.mifos.mifosxdroid.injection.component.DaggerActivityComponent;
 import com.mifos.mifosxdroid.injection.module.ActivityModule;
-import com.mifos.mifosxdroid.passcode.PassCodeActivity;
+import com.mifos.mifosxdroid.userauthentication.passcode.PassCodeActivity;
 import com.mifos.utils.Constants;
 import com.mifos.utils.ForegroundChecker;
 import com.mifos.utils.PrefManager;

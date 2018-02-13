@@ -1,4 +1,4 @@
-package com.mifos.mifosxdroid.passcode;
+package com.mifos.mifosxdroid.userauthentication.passcode;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,6 +15,7 @@ import com.mifos.mifosxdroid.SplashScreenActivity;
 import com.mifos.mifosxdroid.core.MifosBaseActivity;
 import com.mifos.mifosxdroid.core.util.Toaster;
 import com.mifos.mifosxdroid.online.DashboardActivity;
+import com.mifos.mifosxdroid.userauthentication.fingerprint.FingerprintActivity;
 import com.mifos.utils.Constants;
 import com.mifos.utils.EncryptionUtil;
 import com.mifos.utils.PassCodeView;
@@ -58,7 +59,7 @@ public class PassCodeActivity extends MifosBaseActivity implements PassCodeView.
         ButterKnife.bind(this);
 
         isInitialScreen = getIntent().getBooleanExtra(Constants.INTIAL_LOGIN, false);
-
+        startActivity(new Intent(this, FingerprintActivity.class));
         if (PrefManager.getPassCodeStatus()) {
             btnSkip.setVisibility(View.GONE);
             btnSave.setVisibility(View.GONE);

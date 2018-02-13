@@ -734,5 +734,16 @@
     <string name="incorrect_passcode_more_than_three">You have entered incorrect Passcode more than 3 times. Please login again.</string>
     <string name="error_passcode">Passcode should be of 4 digit</string>
 
+    <!--Fingerprint Authentication-->
+    <string name="fingerPrintMessage">Place your finger on the fingerprint sensor</string>
+    <string name="noSensorPresent">No fingerprint sensor detected</string>
+    <string name="permissionNotGiven">Permission to use fingerprint not provided</string>
+    <string name="noFingerprintEnrolled">No fingerprint enrolled</string>
+    <string name="deviceNotSecure">Device is not secure, add lock-screen protection</string>
+    <string name="authentication_failed">Authentication Failed</string>
+    <string name="success">Success !</string>
+    <string name="dialog_login_again">"Do you want to login again ?"</string>
+    <string name="login_again">"LOGIN AGAIN"</string>
+    <string name="quit">"Quit"</string>
 
 </resources>

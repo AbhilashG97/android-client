@@ -11,7 +11,7 @@ import android.os.Bundle;
 import com.mifos.api.BaseUrl;
 import com.mifos.mifosxdroid.core.MifosBaseActivity;
 import com.mifos.mifosxdroid.login.LoginActivity;
-import com.mifos.mifosxdroid.passcode.PassCodeActivity;
+import com.mifos.mifosxdroid.userauthentication.passcode.PassCodeActivity;
 import com.mifos.utils.PrefManager;
 
 
