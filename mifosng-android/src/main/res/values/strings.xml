@@ -744,6 +744,7 @@
     <string name="success">Success !</string>
     <string name="dialog_login_again">"Do you want to login again ?"</string>
     <string name="login_again">"LOGIN AGAIN"</string>
-    <string name="quit">"Quit"</string>
+    <string name="quit">Quit</string>
+    <string name="fingerprint">Fingerprint</string>
 
 </resources>

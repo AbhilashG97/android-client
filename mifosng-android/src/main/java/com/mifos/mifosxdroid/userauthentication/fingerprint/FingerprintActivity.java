@@ -102,11 +102,16 @@ public class FingerprintActivity extends MifosBaseActivity {
 
         if (initCipher()) {
             cryptoObject = new FingerprintManager.CryptoObject(cipher);
-            FingerprintHandler fingerprintHandler = new FingerprintHandler(this, iv_fingerprint);
-            fingerprintHandler.startAuth(fingerprintManager, cryptoObject);
+            startAuthentication();
         }
 
     }
+
+    public void startAuthentication() {
+        FingerprintHandler fingerprintHandler = new FingerprintHandler(this, iv_fingerprint);
+        fingerprintHandler.startAuth(fingerprintManager, cryptoObject);
+    }
+
 
     private void generateKey() throws FingerprintException {
         try {

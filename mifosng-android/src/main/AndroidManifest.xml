@@ -84,6 +84,9 @@
                 android:value=".online.DashboardActivity" />
         </activity>
 
+        <activity android:name=".userauthentication.fingerprint.FingerprintActivity"
+            android:label="@string/fingerprint"
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".online.GenerateCollectionSheetActivity"
