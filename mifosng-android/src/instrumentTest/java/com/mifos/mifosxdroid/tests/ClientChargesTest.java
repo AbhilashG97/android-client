@@ -129,7 +129,7 @@ public class ClientChargesTest extends ActivityInstrumentationTestCase2<ClientAc
                         .getSupportFragmentManager()
                         .findFragmentById(R.id.container);
         getInstrumentation().sendKeyDownUpSync(KeyEvent.KEYCODE_MENU);
-        chooseOptionItem(clientDetailsFragment, R.id.charges);
+        chooseOptionItem(clientDetailsFragment, 1003);
     }
 
     /**
