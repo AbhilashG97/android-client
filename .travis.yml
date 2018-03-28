@@ -1,6 +1,7 @@
 language: android
 jdk: oraclejdk8
 sudo: required
+
 android:
   components:
     - tools
@@ -11,8 +12,7 @@ android:
     - build-tools-24.0.2
     - android-25
 
-script: "./gradlew build --stacktrace"
-
+script: "./gradlew build coveralls"
 
 # gitter integration
 notifications:

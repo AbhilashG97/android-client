@@ -60,9 +60,9 @@ public class DashboardFragmentActivityTest extends
         dashboardActivity = getActivity();
         searchFragment = (SearchFragment) getActivity().getSupportFragmentManager()
                 .findFragmentByTag(FragmentConstants.FRAG_CLIENT_SEARCH);
-        et_searchById = (EditText) dashboardActivity.findViewById(R.id.et_search_by_id);
-        bt_searchClient = (Button) dashboardActivity.findViewById(R.id.bt_searchClient);
-        lv_searchResults = (ListView) dashboardActivity.findViewById(R.id.lv_searchResults);
+        et_searchById = (EditText) dashboardActivity.findViewById(R.id.et_search);
+        bt_searchClient = (Button) dashboardActivity.findViewById(R.id.btn_search);
+        lv_searchResults = (ListView) dashboardActivity.findViewById(R.id.rv_search);
         tv_title_search = (TextView) dashboardActivity.findViewById(R.id.tv_title_search_results);
     }
 
